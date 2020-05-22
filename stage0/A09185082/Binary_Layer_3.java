@@ -1,4 +1,4 @@
-public import ij.ImagePlus;
+import ij.ImagePlus;
 import ij.process.ImageProcessor;
 import ij.plugin.filter.PlugInFilter;
 import java.awt.Color;
@@ -30,6 +30,4 @@ public class Binary_Layer_3 implements PlugInFilter {
      ip.putPixel(col, row, 16777215); //WHITE
    }
  }
-}class Binary_Layer_3 {
-  
 }
